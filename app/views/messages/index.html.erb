@@ -1,2 +1,5 @@
-<h1>Messages#index</h1>
-<p>Find me in app/views/messages/index.html.erb</p>
+<%# renderで部分テンプレートを読み込む。ファイル名の「＿」は要らない。 %>
+<div class="wrapper">
+  <%= render "side_bar" %>
+  <%= render "main_chat" %>
+</div>
