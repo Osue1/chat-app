@@ -1,5 +1,9 @@
 <%# renderで部分テンプレートを読み込む。ファイル名の「＿」は要らない。 %>
 <div class="wrapper">
-  <%= render "side_bar" %>
-  <%= render "main_chat" %>
+  <div class="side-var">
+    <%= render "side_bar" %>
+  </div>
+  <div class="chat-area">
+    <%= render "main_chat" %>
+  </div>
 </div>
