@@ -47,6 +47,7 @@
 
 /* チャットエリア */
 .chat-area{
+  height: calc(100vh - 190px);
   width: calc(100vw - 300px);
   background-color: #ffffff;
 }
@@ -112,7 +113,7 @@
 }
 
 /* フォーム */
-.chat-form{
+.form{
   height: 90px;
   background-color: #dddddd;
   padding: 20px 40px;
