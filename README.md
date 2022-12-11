@@ -24,15 +24,15 @@ Things you may want to cover:
 * ...
 
 
-#テーブル設計
+<!-- テーブル設計 -->
 
 ## users テーブル
 
-| Column----------- | Type     | Options     |
-| ------ -----------| -------- | ----------- |
-| name              | string   | nill: false |
-| email             | string   | nill: false |
-|encrypted_password | string   | nill: false |
+| Column             | Type     | Options     |
+| ------------------ | -------- | ----------- |
+| name               | string   | nill: false |
+| email              | string   | nill: false |
+| encrypted_password | string   | nill: false |
 
 ### Association
 
